@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(139, 138, 138);
+}
+
+.head{
+    
+  font-size: xxx-large;
+  text-align: center;
+  color: aqua;
+  background-color: rgb(46, 44, 44);
+  padding: 3% 0%;
+}
+
+nav{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0% 2%;
+    border: none;
+
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(65, 63, 63);
+}
+div{
+  background-color: rgb(77, 75, 75);
+}
+nav .algo button{
+  background-color: aqua;
+  border-width: 1.8px;
+  border-radius: 10px;
+  border-color:rgb(164, 164, 224);
+}
+#newArray {
+  background-color: aqua;
+  border-width: 1.8px;
+  border-radius: 10px;
+  border-color:rgb(164, 164, 224);
+}
+
+nav .algo button:hover{
+
+  background-color: rgb(60, 250, 70);
+  cursor: pointer;
+}
+
+#newArray:hover{
+  background-color:rgb(33, 180, 40);
+  cursor: pointer;
+ 
+}
+
+
+section #array_bars{
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+nav .algo .butt_selected{
+
+  background-color: red;
+  color: greenyellow;
+  
+}
+nav .algo .butt_selected:hover{
+
+  background-color: white;
+  cursor: pointer;
+
+}
+
+ .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+ .algo .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ .algo .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+nav .algo .butt_unselected:hover{
+
+    background-color: yellow;
+    cursor: pointer;
+}
+section {
+  display: grid;
+}
